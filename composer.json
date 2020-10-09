@@ -1,0 +1,20 @@
+{
+    "name": "nahid/unittest",
+    "authors": [
+        {
+            "name": "nahid940",
+            "email": "nahid940@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"src"
+        }
+    },
+
+    "autoload-dev":{
+        "psr-4":{
+            "App\\Test\\":"tests"
+        }
+    }
+}
